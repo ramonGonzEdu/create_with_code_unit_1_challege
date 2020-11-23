@@ -12,6 +12,7 @@ public class PlayerControllerX : MonoBehaviour
 	void Update()
 	{
 		timer += Time.deltaTime;
+
 		// On spacebar press, send dog
 		if (timer > 2 && (Input.GetKeyDown(KeyCode.Space) || (Application.isEditor && Input.GetKeyDown(KeyCode.O))))
 		{
